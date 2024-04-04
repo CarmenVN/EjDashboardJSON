@@ -13,6 +13,8 @@
 		EA0400ED2BBC201B000691A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA0400EB2BBC201B000691A6 /* Main.storyboard */; };
 		EA0400EF2BBC201D000691A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA0400EE2BBC201D000691A6 /* Assets.xcassets */; };
 		EA0400F22BBC201D000691A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA0400F02BBC201D000691A6 /* LaunchScreen.storyboard */; };
+		EA0400FA2BBC25AE000691A6 /* InvoiceCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0400F92BBC25AE000691A6 /* InvoiceCollectionViewCell.swift */; };
+		EA0401092BBE9480000691A6 /* invoice.json in Resources */ = {isa = PBXBuildFile; fileRef = EA0401082BBE8FAC000691A6 /* invoice.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		EA0400EE2BBC201D000691A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA0400F12BBC201D000691A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA0400F32BBC201D000691A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA0400F92BBC25AE000691A6 /* InvoiceCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvoiceCollectionViewCell.swift; sourceTree = "<group>"; };
+		EA0401082BBE8FAC000691A6 /* invoice.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = invoice.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		EA0400E42BBC201B000691A6 /* EjemploDashBoard */ = {
 			isa = PBXGroup;
 			children = (
+				EA0401082BBE8FAC000691A6 /* invoice.json */,
 				EA0400E52BBC201B000691A6 /* AppDelegate.swift */,
 				EA0400E72BBC201B000691A6 /* SceneDelegate.swift */,
 				EA0400E92BBC201B000691A6 /* ViewController.swift */,
@@ -63,6 +68,7 @@
 				EA0400EE2BBC201D000691A6 /* Assets.xcassets */,
 				EA0400F02BBC201D000691A6 /* LaunchScreen.storyboard */,
 				EA0400F32BBC201D000691A6 /* Info.plist */,
+				EA0400F92BBC25AE000691A6 /* InvoiceCollectionViewCell.swift */,
 			);
 			path = EjemploDashBoard;
 			sourceTree = "<group>";
@@ -125,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA0401092BBE9480000691A6 /* invoice.json in Resources */,
 				EA0400F22BBC201D000691A6 /* LaunchScreen.storyboard in Resources */,
 				EA0400EF2BBC201D000691A6 /* Assets.xcassets in Resources */,
 				EA0400ED2BBC201B000691A6 /* Main.storyboard in Resources */,
@@ -138,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA0400FA2BBC25AE000691A6 /* InvoiceCollectionViewCell.swift in Sources */,
 				EA0400EA2BBC201B000691A6 /* ViewController.swift in Sources */,
 				EA0400E62BBC201B000691A6 /* AppDelegate.swift in Sources */,
 				EA0400E82BBC201B000691A6 /* SceneDelegate.swift in Sources */,
